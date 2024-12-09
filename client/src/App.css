@@ -1,0 +1,414 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* .App {
+width: 1520px;
+height: 2256px;
+} */
+
+/* .content{
+  position: relative;
+  top: 100px;
+} */
+
+.header1 {
+position: absolute;
+width: 922px;
+height: 80px;
+left: 335px;
+top: 55px;
+}
+
+.logo{
+  position: absolute;
+/* width: 71px; */
+height: 80px;
+}
+
+.user {
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 795px;
+top: 30px;
+}
+
+.basket {
+  position: absolute;
+  height: 40px;
+  left: 875px;
+  top: 30px;
+}
+
+.sweet {
+  position: absolute;
+width: 80px;
+height: 33px;
+left: 84px;
+top: 33px;
+
+font-family: 'Twinkle Star';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 38px;
+
+color: #000000;
+
+}
+
+.header {
+  position: relative;
+  width: 1520px;
+  height: 80px;
+  left: 0px;
+  top: 185px;
+  background: #A3E3E5;
+  top: 0%;
+  left: 0%;
+  transform: translate(0%, 210%);
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+font-weight: 900px;
+font-size: 16px;
+margin-right: 40px;
+color: #000000;
+position: relative;
+top: 0%;
+  left: 0%;
+  transform: translate(20%, 30%);
+}
+
+.category {
+  position: absolute;
+width: 167px;
+height: 80px;
+left: 280px;
+background: #63C6C9;
+}
+
+.all_category {
+  /* display: flex;
+  vertical-align: middle;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 0.4px;
+
+color: #FFFFFF;
+}
+
+.nav {
+  position: relative;
+  top: 50%;
+  left: 55%;
+  transform: translate(-10%, 35%);
+}
+
+.head {
+  
+  position: relative;
+  bottom: 0%;
+  left: 0%;
+  transform: translate(10%, 30%);
+}
+
+
+
+/*  */
+
+.footer {
+  
+width: 1520px;
+background: #A3E3E5;
+top: 1550px;
+position: relative;
+  bottom: 0%;
+  left: 0%;
+  transform: translate(0%, 0%);
+}
+
+.logo_footer{
+  position: relative;
+height: 80px;
+left: 84px;
+top: 30px;
+}
+
+.sweet_footer {
+position: relative;
+width: 80px;
+height: 33px;
+left: 168px;
+top: -15px;
+
+font-family: 'Twinkle Star';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 38px;
+
+color: #000000;
+
+}
+
+.thank_footer {
+  position: relative;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400px;
+font-size: 20px;
+font-weight: 100;
+margin-top: 20px;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+
+/* .footer_three {
+  position: relative;
+top: -56px;
+} */
+
+.footer_onas {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+
+.footer_glav {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 30px;
+
+color: #000000;
+}
+
+.footer_two {
+position: relative;
+top: 20px;
+}
+
+.footer_tel {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 15px;
+  line-height: 30px;
+  
+  color: #000000;
+}
+
+
+/* shop */
+
+.shop_menu{
+  position: absolute;
+width: 250px;
+height: 466px;
+left: 280px;
+top: 278px;
+background-color: #FCDBF1;
+/* color: #FCDBF1 */
+}
+
+.shop_menu_catalog{
+  position: relative;
+  padding-top: 20px;
+  margin-left: 87px;
+width: 250px;
+height: 466px;
+/* left: 280px; */
+top: 35px;
+background-color: #FCDBF1;
+/* color: #FCDBF1 */
+}
+
+.shop_menu1 {
+  height: 20px;
+}
+
+.menu{
+width: 220px;
+font-family: 'Montserrat';
+font-weight: 900px;
+font-size: 16px;
+margin-right: 40px;
+color: #000000;
+transition: all 500ms ease;
+}
+
+/* .shop_menu_catalog div:hover {
+  border-top: silver;
+  transform: scale(1.1);
+} */
+
+.menu_y {
+  position: relative;
+  height: 60px;
+  margin-left: 10px;
+  /* left: 20px; */
+  /* text-align: center;
+  justify-content: center;
+  align-items: center; */
+  text-decoration:none;
+}
+
+.menu_img {
+  position: relative;
+  margin-right: 10px;
+  /* left: 10px; */
+width: 33px;
+height: 33px;
+/* left: 350px;
+top: 296px; */
+}
+
+.text{
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 500px; 
+  line-height: 1;
+}
+
+.text1 {
+position: relative;
+margin-top: 60px;
+width: 1520px;
+height: 169.25px;
+left: -134px;
+/* top: 761.75px; */
+background: #A3E3E5;
+
+display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 500px; 
+  line-height: 1;
+}
+
+
+.tortik {
+position: absolute;
+width: 1520px;
+height: 376px;
+left: 0px;
+top: 931px;
+display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+background-color: #FCDBF1;
+}
+
+.tortik1 {
+  position: absolute;
+width: 1520px;
+height: 376px;
+left: 0px;
+top: 1307px;
+display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+background-color: #FCDBF1;
+}
+
+.block {
+    width: 280px;
+    height: 220px;
+    margin: 0px;
+    padding: 20px;
+    /* background-image: "./src/Photo/birthday_cake.jpeg"; */
+}
+
+.block1 {
+  /* background-color: blueviolet; */
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+}
+
+.top_img {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  font-family: 'Montserrat';
+  line-height: 15px;
+}
+
+.top_img1 {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 1000;
+  line-height: 0;
+}
+
+.basketItem {
+  display: flex;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  border: 1px solid #ccc;
+  transition: all 0.5s;
+}
